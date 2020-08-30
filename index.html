@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World´s Weather</title>
+    <link rel="stylesheet" href="css/styleweather.css">
+</head>
+<body>
+        <h1>The Weather Channel</h1>   
+
+        <div class="ingresoCiudad">
+            <input type="text" class="sinborde" placeholder="Ingresa tu ciudad">
+            <button class="btn" >Send</button>
+        </div>
+
+        <div class="container">
+            
+            <h2 class="cities"></h2>
+            <div class="weather-icon">
+                <img src="icons/unknow.png" alt="">
+            </div>
+            <div class="weather-description"> 
+                <p> -º <span>C</span></p>
+            </div>
+            <div class="temperature-description"> 
+                <p>-</p> 
+            </div>
+            
+        </div>
+<!-- <li class="city">
+            <h2 class="citiy-name">
+                <span></span>
+                <sup></sup>
+            </h2>
+            <span class="city-temp"> Cº</span>
+            <figure>
+                <img class="city-icon" src="" alt="">
+                
+            </figure>
+        </li>
+-->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
